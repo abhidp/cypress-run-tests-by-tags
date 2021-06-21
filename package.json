@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "node cypress/support/cypress.open.js"
+    "cy:open": "node cypress/support/cypress.open.js",
+    "cy:run": "node cypress/support/cypress.run.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.5.0"
+    "cypress": "7.5.0"
   }
 }

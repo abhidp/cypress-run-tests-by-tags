@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-//@e2e
+//@e2e,@smoke
 context('Navigation', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io')
