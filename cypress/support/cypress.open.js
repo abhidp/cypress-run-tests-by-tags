@@ -6,8 +6,6 @@ const exec = util.promisify(require('child_process').exec)
 
 async function getSpecs() {
   if (argv.suite) {
-    console.log('suite==', argv.suite)
-
     const tags = argv.suite
       .toLowerCase()
       .split(',')
